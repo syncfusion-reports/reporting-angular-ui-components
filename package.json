@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/syncfusion/ej-angular2"
+    "url": "https://github.com/syncfusion-reports/reporting-angular-ui-components"
   },
   "author": "Syncfusion Inc",
   "keywords": [
@@ -30,7 +30,7 @@
     "RDL Viewer"
   ],
   "bugs": {
-    "url": "https://github.com/syncfusion/ej-angular2/issues"
+    "url": "https://github.com/syncfusion-reports/reporting-angular-ui-components/issues"
   },
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
