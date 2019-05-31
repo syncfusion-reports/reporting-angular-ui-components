@@ -1,0 +1,56 @@
+{
+  "name": "@syncfusion/reporting-angular",
+  "version": "4.1.1",
+  "scripts": {
+    "lint": "tslint ej/**/*.ts",
+    "build": "npm run build:aot",
+    "tsc": "tsc",
+    "build:aot": "ngc -p ./tsconfig-aot.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syncfusion-reports/reporting-angular-ui-components"
+  },
+  "author": "Syncfusion Inc",
+  "keywords": [
+    "Report Viewer",
+    "Report Designer",
+    "Report Editor",
+    "Report Builder",
+    "SSRS",
+    "Angular Components",
+    "Reporting Tool",
+    "Syncfusion",
+    "UI Components",
+    "Web",
+    "Reports",
+    "RDL",
+    "RDLC",
+    "RDLC Viewer",
+    "RDL Viewer"
+  ],
+  "bugs": {
+    "url": "https://github.com/syncfusion-reports/reporting-angular-ui-components/issues"
+  },
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "dependencies": {
+    "@syncfusion/reporting-javascript": "*"
+  },
+  "devDependencies": {
+    "@angular/common": "5.0.0",
+    "@angular/compiler": "5.0.0",
+    "@angular/compiler-cli": "5.0.0",
+    "@angular/core": "5.0.0",
+    "@angular/forms": "5.0.0",
+    "@types/ej.web.all": "*",
+    "@types/jquery": "2.0.34",
+    "@types/node": "6.0.52",
+    "rxjs": "5.5.2",
+    "zone.js": "^0.8.4",
+    "codelyzer": "^0.0.28",
+    "tslint": "^3.15.1",
+    "typescript": "2.4.2",
+    "typings": "^1.0.4"
+  }
+}
